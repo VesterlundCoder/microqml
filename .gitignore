@@ -34,3 +34,4 @@ build/
 
 # Large data (keep results but not raw intermediates)
 *.tmp
+qmt/results/stage1a_run.log
