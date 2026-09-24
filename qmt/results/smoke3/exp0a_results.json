@@ -1,0 +1,69 @@
+{
+  "k=8": {
+    "k": 8,
+    "compression": "spectral",
+    "probe": "P2",
+    "n_graphs": 100,
+    "solver_dominance": {
+      "dominated": "True",
+      "fractions": {
+        "spectral": 0.0,
+        "greedy": 0.05,
+        "multistart": 0.0,
+        "annealing": 0.0,
+        "tabu": 0.95
+      },
+      "max_fraction": 0.95,
+      "pass": false
+    },
+    "feature_variance": {
+      "variances": [
+        0.03191038966178894,
+        0.0047658514231443405,
+        0.06679435819387436,
+        0.01823924295604229,
+        0.04395570233464241,
+        0.013084404170513153,
+        0.0029276686254888773,
+        1.0188395977020264
+      ],
+      "effective_rank": 5.562940746201338,
+      "n_constant": 0,
+      "n_features": 8
+    },
+    "conditional_residual": {
+      "r2_classical": 0.4897084595819434,
+      "r2_residual": 0.09542123257317148,
+      "delta_rho": 0.0275112396523845,
+      "r2_combined": 0.553767496735447,
+      "r2_quantum_only": 0.11471813157554522,
+      "rho_classical": 0.4450745379913223,
+      "rho_combined": 0.4725857776437068,
+      "pass_gate": true
+    },
+    "conditional_residual_hardness": {
+      "r2_classical": -183.40460722593437,
+      "r2_residual": 0.6774304041036079,
+      "delta_rho": 0.07679567956795696,
+      "r2_combined": -188.48342807424677,
+      "r2_quantum_only": -138.36917139079534,
+      "rho_classical": 0.8502610261026101,
+      "rho_combined": 0.9270567056705671,
+      "pass_gate": true
+    },
+    "oracle": {
+      "oracle_r2_q": 0.786019843071511,
+      "oracle_r2_c": 0.872337193895695,
+      "oracle_r2_cq": 0.9336661096874379,
+      "ridge_r2_q": 0.2535773054707962,
+      "ridge_r2_c": 0.4858614205059998,
+      "ridge_r2_cq": 0.5220009917729745,
+      "incremental_oracle": 0.06132891579174293,
+      "incremental_ridge": 0.03613957126697476
+    },
+    "Q_shape": [
+      100,
+      8
+    ]
+  }
+}

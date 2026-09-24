@@ -1,0 +1,7 @@
+aqt-connector==0.1.0
+auth0-python==4.13.0
+pcss_qapi==0.2.2
+python-dotenv==1.2.3
+qiskit-aer==0.17.2
+qiskit-aqt-provider==1.14.0
+qiskit==1.4.6
